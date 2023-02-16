@@ -1,0 +1,15 @@
+.BarraResultado {
+    padding: 16px;
+    text-align: right;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+/* .BarraResultado p {
+    color: var(--light);
+}*/
+
+.BarraResultado span {
+    color: var(--secundary);
+    font-size: 13px;
+}

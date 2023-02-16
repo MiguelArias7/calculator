@@ -1,0 +1,9 @@
+.TecladoOperaciones {
+    display: flex;
+}
+
+.TecladoOperaciones button {
+    flex: 1 1 50%;
+    background-color: var(--primary);
+    font-weight: 800;
+}

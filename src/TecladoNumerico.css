@@ -1,0 +1,10 @@
+.TecladoNumerico {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.TecladoNumerico button {
+    flex: 1 1 33.33%;
+    background-color: var(--dark);
+    font-weight: 800;
+}
