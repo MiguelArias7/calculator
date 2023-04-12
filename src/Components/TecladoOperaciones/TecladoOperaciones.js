@@ -1,6 +1,6 @@
 import React from "react";
 import "./TecladoOperaciones.css";
-import { BotonCalculadora } from "./BotonCalculadora";
+import { BotonCalculadora } from "../BotonCalculador/BotonCalculadora";
 
 function TecladoOperaciones({
   ops,

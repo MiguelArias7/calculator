@@ -1,6 +1,6 @@
 import React from "react";
 import "./TecladoNumerico.css";
-import { BotonCalculadora } from "./BotonCalculadora";
+import { BotonCalculadora } from "../BotonCalculador/BotonCalculadora";
 
 function TecladoNumerico({ updateCalculo }) {
   let nums = [];

@@ -1,8 +1,8 @@
 import "./App.css";
 import React from "react";
-import { BarraResultado } from "./BarraResultado";
-import { TecladoNumerico } from "./TecladoNumerico";
-import { TecladoOperaciones } from "./TecladoOperaciones";
+import { BarraResultado } from "../Components/BarraResultado/BarraResultado";
+import { TecladoNumerico } from "../Components/TecladoNumerico/TecladoNumerico";
+import { TecladoOperaciones } from "../Components/TecladoOperaciones/TecladoOperaciones";
 
 function App() {
   let ops = ["+", "-", "*", "/", "."];
@@ -36,7 +36,6 @@ function App() {
   return (
     <div className="App">
       <div className="calculadora">
-        <h1>Calculadora - Test deploy</h1>
         <BarraResultado
           resultado={resultado}
           calculo={calculo}
